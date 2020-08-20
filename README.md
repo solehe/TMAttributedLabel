@@ -5,7 +5,7 @@ TMAttributedLabel
 一款基于<a href="https://github.com/TTTAttributedLabel/TTTAttributedLabel">TTTAttributedLabel</a>和<a href="https://github.com/xiangwangfeng/M80AttributedLabel">M80AttributedLabel</a>实现的富文本展示Label。
 
 # 特别说明
-之前在使用<a href="https://github.com/TTTAttributedLabel/TTTAttributedLabel">TTTAttributedLabel</a>和<a href="https://github.com/xiangwangfeng/M80AttributedLabel">M80AttributedLabel</a>时发现它们两者的功能都非常好用，但是又都不能满足需求。比如<a href="https://github.com/TTTAttributedLabel/TTTAttributedLabel">TTTAttributedLabel</a>对于链接的识别和处理以及绘制方便支持非常好，但是其不支持内嵌图片和控件。而<a href="https://github.com/xiangwangfeng/M80AttributedLabel">M80AttributedLabel</a>使用非常方便且扩展性很强，但是其基于UIView实现使其丧失了作为Label来使用时的一些优势，同时在绘制一些其他语言（比如缅甸文）时达不到和系统一样的效果。因此在<a href="https://github.com/TTTAttributedLabel/TTTAttributedLabel">TTTAttributedLabel</a>的绘制基础上，融合了<a href="https://github.com/xiangwangfeng/M80AttributedLabel">M80AttributedLabel</a>的一些特性，最终实现了TMAttributedLabel。由于作者能力有限，不能完全从零开发，只有站在两位巨人的肩旁上，力所能及的为开源社区贡献一点自己的力量。
+之前在使用TTTAttributedLabel和M80AttributedLabel时发现它们两者的功能都非常好用，但是又都不能满足需求。比如TTTAttributedLabel对于链接的识别和处理以及绘制方便支持非常好，但是其不支持内嵌图片和控件。而M80AttributedLabel使用非常方便且扩展性很强，但是其基于UIView实现使其丧失了作为Label来使用时的一些优势，同时在绘制一些其他语言（比如缅甸文）时达不到和系统一样的效果。因此在TTTAttributedLabel的绘制基础上，融合了M80AttributedLabel的一些特性，最终实现了TMAttributedLabel。由于作者能力有限，不能完全从零开发，只有站在两位巨人的肩旁上，力所能及的为开源社区贡献一点自己的力量。
 
 # 特性
 * 支持多行富文本显示
@@ -101,4 +101,4 @@ CGFloat width = [label sizeThatFits:CGSizeMake(335, label.font.lineHeight)].widt
 
 # 许可证
 
-M80AttributedLabel 使用 [MIT license][MIT] 许可证，详情见 LICENSE 文件。
+TMAttributedLabel 使用 [MIT license][MIT] 许可证，详情见 LICENSE 文件。
