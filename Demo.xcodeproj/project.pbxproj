@@ -3,39 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40D3BD2388985FFE73C8A600 /* Pods_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CD3E386BF495BD96B5E1B1 /* Pods_Demo.framework */; };
 		522BDBDD24EE62B60079B599 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 522BDBDC24EE62B60079B599 /* AppDelegate.m */; };
-		522BDBE024EE62B60079B599 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 522BDBDF24EE62B60079B599 /* SceneDelegate.m */; };
 		522BDBE324EE62B60079B599 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 522BDBE224EE62B60079B599 /* ViewController.m */; };
 		522BDBE624EE62B60079B599 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522BDBE424EE62B60079B599 /* Main.storyboard */; };
 		522BDBE824EE62B60079B599 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522BDBE724EE62B60079B599 /* Assets.xcassets */; };
 		522BDBEB24EE62B60079B599 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522BDBE924EE62B60079B599 /* LaunchScreen.storyboard */; };
 		522BDBEE24EE62B60079B599 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 522BDBED24EE62B60079B599 /* main.m */; };
-		522BDBFD24EE63150079B599 /* TMAttributedLabelHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 522BDBFB24EE63150079B599 /* TMAttributedLabelHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		522BDC0024EE63150079B599 /* TMAttributedLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522BDBF924EE63150079B599 /* TMAttributedLabel.framework */; };
-		522BDC0124EE63150079B599 /* TMAttributedLabel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 522BDBF924EE63150079B599 /* TMAttributedLabel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		522BDC0F24EE63550079B599 /* NSMutableAttributedString+TM.h in Headers */ = {isa = PBXBuildFile; fileRef = 522BDC0624EE63550079B599 /* NSMutableAttributedString+TM.h */; };
-		522BDC1024EE63550079B599 /* TMAttributedLabelLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 522BDC0724EE63550079B599 /* TMAttributedLabelLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		522BDC1124EE63550079B599 /* TMAttributedLabelLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 522BDC0824EE63550079B599 /* TMAttributedLabelLink.m */; };
-		522BDC1224EE63550079B599 /* NSMutableAttributedString+TM.m in Sources */ = {isa = PBXBuildFile; fileRef = 522BDC0924EE63550079B599 /* NSMutableAttributedString+TM.m */; };
-		522BDC1424EE63550079B599 /* TMAttributedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 522BDC0B24EE63550079B599 /* TMAttributedLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		522BDC1524EE63550079B599 /* TMAttributedLabelAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 522BDC0C24EE63550079B599 /* TMAttributedLabelAttachment.h */; };
-		522BDC1624EE63550079B599 /* TMAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 522BDC0D24EE63550079B599 /* TMAttributedLabel.m */; };
-		522BDC1724EE63550079B599 /* TMAttributedLabelAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 522BDC0E24EE63550079B599 /* TMAttributedLabelAttachment.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		522BDBFE24EE63150079B599 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 522BDBD024EE62B60079B599 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 522BDBF824EE63150079B599;
-			remoteInfo = TMAttributedLabel;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		522BDC0524EE63150079B599 /* Embed Frameworks */ = {
@@ -44,7 +23,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				522BDC0124EE63150079B599 /* TMAttributedLabel.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,11 +30,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		19136EAEF311ADD1B7367F52 /* Pods_TMAttributedLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TMAttributedLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36CD3E386BF495BD96B5E1B1 /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C4DB4F0D5CD9FC07904812 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		522BDBD824EE62B60079B599 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		522BDBDB24EE62B60079B599 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		522BDBDC24EE62B60079B599 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		522BDBDE24EE62B60079B599 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		522BDBDF24EE62B60079B599 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		522BDBE124EE62B60079B599 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		522BDBE224EE62B60079B599 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		522BDBE524EE62B60079B599 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -64,17 +43,9 @@
 		522BDBEA24EE62B60079B599 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		522BDBEC24EE62B60079B599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		522BDBED24EE62B60079B599 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		522BDBF924EE63150079B599 /* TMAttributedLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TMAttributedLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		522BDBFB24EE63150079B599 /* TMAttributedLabelHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMAttributedLabelHeader.h; sourceTree = "<group>"; };
-		522BDBFC24EE63150079B599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		522BDC0624EE63550079B599 /* NSMutableAttributedString+TM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+TM.h"; sourceTree = "<group>"; };
-		522BDC0724EE63550079B599 /* TMAttributedLabelLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMAttributedLabelLink.h; sourceTree = "<group>"; };
-		522BDC0824EE63550079B599 /* TMAttributedLabelLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMAttributedLabelLink.m; sourceTree = "<group>"; };
-		522BDC0924EE63550079B599 /* NSMutableAttributedString+TM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+TM.m"; sourceTree = "<group>"; };
-		522BDC0B24EE63550079B599 /* TMAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMAttributedLabel.h; sourceTree = "<group>"; };
-		522BDC0C24EE63550079B599 /* TMAttributedLabelAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMAttributedLabelAttachment.h; sourceTree = "<group>"; };
-		522BDC0D24EE63550079B599 /* TMAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMAttributedLabel.m; sourceTree = "<group>"; };
-		522BDC0E24EE63550079B599 /* TMAttributedLabelAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMAttributedLabelAttachment.m; sourceTree = "<group>"; };
+		7DD50E4EFBD6194781494435 /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		B92545AB8D6634D3CDD06A46 /* Pods-TMAttributedLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMAttributedLabel.release.xcconfig"; path = "Target Support Files/Pods-TMAttributedLabel/Pods-TMAttributedLabel.release.xcconfig"; sourceTree = "<group>"; };
+		C5613D5BA58D0BFCBB279E0C /* Pods-TMAttributedLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMAttributedLabel.debug.xcconfig"; path = "Target Support Files/Pods-TMAttributedLabel/Pods-TMAttributedLabel.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,26 +53,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				522BDC0024EE63150079B599 /* TMAttributedLabel.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		522BDBF624EE63150079B599 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				40D3BD2388985FFE73C8A600 /* Pods_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04F92EFFC3CDC1C10B8EBC2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DD50E4EFBD6194781494435 /* Pods-Demo.debug.xcconfig */,
+				41C4DB4F0D5CD9FC07904812 /* Pods-Demo.release.xcconfig */,
+				C5613D5BA58D0BFCBB279E0C /* Pods-TMAttributedLabel.debug.xcconfig */,
+				B92545AB8D6634D3CDD06A46 /* Pods-TMAttributedLabel.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		522BDBCF24EE62B60079B599 = {
 			isa = PBXGroup;
 			children = (
-				522BDBFA24EE63150079B599 /* TMAttributedLabel */,
 				522BDBDA24EE62B60079B599 /* Demo */,
 				522BDBD924EE62B60079B599 /* Products */,
+				04F92EFFC3CDC1C10B8EBC2F /* Pods */,
+				9A15DF6F40719F07093CFAF1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,7 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				522BDBD824EE62B60079B599 /* Demo.app */,
-				522BDBF924EE63150079B599 /* TMAttributedLabel.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,8 +94,6 @@
 			children = (
 				522BDBDB24EE62B60079B599 /* AppDelegate.h */,
 				522BDBDC24EE62B60079B599 /* AppDelegate.m */,
-				522BDBDE24EE62B60079B599 /* SceneDelegate.h */,
-				522BDBDF24EE62B60079B599 /* SceneDelegate.m */,
 				522BDBE124EE62B60079B599 /* ViewController.h */,
 				522BDBE224EE62B60079B599 /* ViewController.m */,
 				522BDBE424EE62B60079B599 /* Main.storyboard */,
@@ -132,77 +105,37 @@
 			path = Demo;
 			sourceTree = "<group>";
 		};
-		522BDBFA24EE63150079B599 /* TMAttributedLabel */ = {
+		9A15DF6F40719F07093CFAF1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				522BDC0B24EE63550079B599 /* TMAttributedLabel.h */,
-				522BDC0D24EE63550079B599 /* TMAttributedLabel.m */,
-				522BDC0724EE63550079B599 /* TMAttributedLabelLink.h */,
-				522BDC0824EE63550079B599 /* TMAttributedLabelLink.m */,
-				522BDC0C24EE63550079B599 /* TMAttributedLabelAttachment.h */,
-				522BDC0E24EE63550079B599 /* TMAttributedLabelAttachment.m */,
-				522BDC0624EE63550079B599 /* NSMutableAttributedString+TM.h */,
-				522BDC0924EE63550079B599 /* NSMutableAttributedString+TM.m */,
-				522BDBFB24EE63150079B599 /* TMAttributedLabelHeader.h */,
-				522BDBFC24EE63150079B599 /* Info.plist */,
+				36CD3E386BF495BD96B5E1B1 /* Pods_Demo.framework */,
+				19136EAEF311ADD1B7367F52 /* Pods_TMAttributedLabel.framework */,
 			);
-			path = TMAttributedLabel;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		522BDBF424EE63150079B599 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				522BDC1424EE63550079B599 /* TMAttributedLabel.h in Headers */,
-				522BDC1024EE63550079B599 /* TMAttributedLabelLink.h in Headers */,
-				522BDC1524EE63550079B599 /* TMAttributedLabelAttachment.h in Headers */,
-				522BDC0F24EE63550079B599 /* NSMutableAttributedString+TM.h in Headers */,
-				522BDBFD24EE63150079B599 /* TMAttributedLabelHeader.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		522BDBD724EE62B60079B599 /* Demo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 522BDBF124EE62B60079B599 /* Build configuration list for PBXNativeTarget "Demo" */;
 			buildPhases = (
+				B6E5BED42C8CE062DC81543D /* [CP] Check Pods Manifest.lock */,
 				522BDBD424EE62B60079B599 /* Sources */,
 				522BDBD524EE62B60079B599 /* Frameworks */,
 				522BDBD624EE62B60079B599 /* Resources */,
 				522BDC0524EE63150079B599 /* Embed Frameworks */,
+				F012BA25B28EF0F93B5B9F11 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				522BDBFF24EE63150079B599 /* PBXTargetDependency */,
 			);
 			name = Demo;
 			productName = Demo;
 			productReference = 522BDBD824EE62B60079B599 /* Demo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		522BDBF824EE63150079B599 /* TMAttributedLabel */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 522BDC0224EE63150079B599 /* Build configuration list for PBXNativeTarget "TMAttributedLabel" */;
-			buildPhases = (
-				522BDBF424EE63150079B599 /* Headers */,
-				522BDBF524EE63150079B599 /* Sources */,
-				522BDBF624EE63150079B599 /* Frameworks */,
-				522BDBF724EE63150079B599 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TMAttributedLabel;
-			productName = TMAttributedLabel;
-			productReference = 522BDBF924EE63150079B599 /* TMAttributedLabel.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -214,9 +147,6 @@
 				ORGANIZATIONNAME = solehe;
 				TargetAttributes = {
 					522BDBD724EE62B60079B599 = {
-						CreatedOnToolsVersion = 11.6;
-					};
-					522BDBF824EE63150079B599 = {
 						CreatedOnToolsVersion = 11.6;
 					};
 				};
@@ -235,7 +165,6 @@
 			projectRoot = "";
 			targets = (
 				522BDBD724EE62B60079B599 /* Demo */,
-				522BDBF824EE63150079B599 /* TMAttributedLabel */,
 			);
 		};
 /* End PBXProject section */
@@ -251,14 +180,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		522BDBF724EE63150079B599 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B6E5BED42C8CE062DC81543D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Demo-checkManifestLockResult.txt",
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		F012BA25B28EF0F93B5B9F11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		522BDBD424EE62B60079B599 /* Sources */ = {
@@ -268,30 +232,10 @@
 				522BDBE324EE62B60079B599 /* ViewController.m in Sources */,
 				522BDBDD24EE62B60079B599 /* AppDelegate.m in Sources */,
 				522BDBEE24EE62B60079B599 /* main.m in Sources */,
-				522BDBE024EE62B60079B599 /* SceneDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		522BDBF524EE63150079B599 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				522BDC1124EE63550079B599 /* TMAttributedLabelLink.m in Sources */,
-				522BDC1224EE63550079B599 /* NSMutableAttributedString+TM.m in Sources */,
-				522BDC1724EE63550079B599 /* TMAttributedLabelAttachment.m in Sources */,
-				522BDC1624EE63550079B599 /* TMAttributedLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		522BDBFF24EE63150079B599 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 522BDBF824EE63150079B599 /* TMAttributedLabel */;
-			targetProxy = 522BDBFE24EE63150079B599 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		522BDBE424EE62B60079B599 /* Main.storyboard */ = {
@@ -425,6 +369,7 @@
 		};
 		522BDBF224EE62B60079B599 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DD50E4EFBD6194781494435 /* Pods-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +388,7 @@
 		};
 		522BDBF324EE62B60079B599 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41C4DB4F0D5CD9FC07904812 /* Pods-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -456,64 +402,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
-		522BDC0324EE63150079B599 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = TMAttributedLabel/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.TMAttributedLabel;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
-				TARGETED_DEVICE_FAMILY = 1;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		522BDC0424EE63150079B599 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = TMAttributedLabel/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.app.TMAttributedLabel;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
-				TARGETED_DEVICE_FAMILY = 1;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -534,15 +422,6 @@
 			buildConfigurations = (
 				522BDBF224EE62B60079B599 /* Debug */,
 				522BDBF324EE62B60079B599 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		522BDC0224EE63150079B599 /* Build configuration list for PBXNativeTarget "TMAttributedLabel" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				522BDC0324EE63150079B599 /* Debug */,
-				522BDC0424EE63150079B599 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
