@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: 9c1ca91d27f16ed7448b57b8e4f884e2c3a4a5de
+PODS:
+  - TMAttributedLabel (0.0.2)
+
+DEPENDENCIES:
+  - TMAttributedLabel (from `./`)
+
+EXTERNAL SOURCES:
+  TMAttributedLabel:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  TMAttributedLabel: 3d48d5880c7b92d5bbe7316a78bd7965570e6aca
+
+PODFILE CHECKSUM: 94317336161dade60e3fa7a16c1dadea8828c499
 
 COCOAPODS: 1.9.3

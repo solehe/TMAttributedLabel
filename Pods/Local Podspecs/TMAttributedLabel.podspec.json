@@ -1,6 +1,6 @@
 {
   "name": "TMAttributedLabel",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "基于M80AttributedLabel和TTTAttributedLabel实现的富文本Label",
   "homepage": "https://github.com/solehe/TMAttributedLabel",
   "license": "MIT",
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/solehe/TMAttributedLabel.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "source_files": "TMAttributedLabel/*.{h,m}",
   "requires_arc": true

@@ -6,6 +6,6 @@ target 'Demo' do
   use_frameworks!
 
   # Pods for Demo
-  #pod 'TMAttributedLabel', :path => './'
+  pod 'TMAttributedLabel', :path => './'
 
 end

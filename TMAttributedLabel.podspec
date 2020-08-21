@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TMAttributedLabel"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "基于M80AttributedLabel和TTTAttributedLabel实现的富文本Label"
 
   # This description is used to generate tags and improve search results.
