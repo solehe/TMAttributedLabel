@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,10 @@
 		522BDBE824EE62B60079B599 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522BDBE724EE62B60079B599 /* Assets.xcassets */; };
 		522BDBEB24EE62B60079B599 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522BDBE924EE62B60079B599 /* LaunchScreen.storyboard */; };
 		522BDBEE24EE62B60079B599 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 522BDBED24EE62B60079B599 /* main.m */; };
+		522BDDD424EFAB380079B599 /* TMAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 522BDDD024EFAB380079B599 /* TMAttributedLabel.m */; };
+		522BDDD524EFAB380079B599 /* TMAttributedLabelAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 522BDDD124EFAB380079B599 /* TMAttributedLabelAttachment.m */; };
+		522BDDD624EFAB380079B599 /* TMAttributedLabelLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 522BDDD224EFAB380079B599 /* TMAttributedLabelLink.m */; };
+		522BDDD724EFAB380079B599 /* NSMutableAttributedString+TM.m in Sources */ = {isa = PBXBuildFile; fileRef = 522BDDD324EFAB380079B599 /* NSMutableAttributedString+TM.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +47,15 @@
 		522BDBEA24EE62B60079B599 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		522BDBEC24EE62B60079B599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		522BDBED24EE62B60079B599 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		522BDDCB24EFAB380079B599 /* TMAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMAttributedLabel.h; sourceTree = "<group>"; };
+		522BDDCC24EFAB380079B599 /* TMAttributedLabelLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMAttributedLabelLink.h; sourceTree = "<group>"; };
+		522BDDCD24EFAB380079B599 /* TMAttributedLabelAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMAttributedLabelAttachment.h; sourceTree = "<group>"; };
+		522BDDCE24EFAB380079B599 /* NSMutableAttributedString+TM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+TM.h"; sourceTree = "<group>"; };
+		522BDDCF24EFAB380079B599 /* TMAttributedLabelHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMAttributedLabelHeader.h; sourceTree = "<group>"; };
+		522BDDD024EFAB380079B599 /* TMAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMAttributedLabel.m; sourceTree = "<group>"; };
+		522BDDD124EFAB380079B599 /* TMAttributedLabelAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMAttributedLabelAttachment.m; sourceTree = "<group>"; };
+		522BDDD224EFAB380079B599 /* TMAttributedLabelLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMAttributedLabelLink.m; sourceTree = "<group>"; };
+		522BDDD324EFAB380079B599 /* NSMutableAttributedString+TM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+TM.m"; sourceTree = "<group>"; };
 		7DD50E4EFBD6194781494435 /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		B92545AB8D6634D3CDD06A46 /* Pods-TMAttributedLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMAttributedLabel.release.xcconfig"; path = "Target Support Files/Pods-TMAttributedLabel/Pods-TMAttributedLabel.release.xcconfig"; sourceTree = "<group>"; };
 		C5613D5BA58D0BFCBB279E0C /* Pods-TMAttributedLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMAttributedLabel.debug.xcconfig"; path = "Target Support Files/Pods-TMAttributedLabel/Pods-TMAttributedLabel.debug.xcconfig"; sourceTree = "<group>"; };
@@ -74,6 +87,7 @@
 		522BDBCF24EE62B60079B599 = {
 			isa = PBXGroup;
 			children = (
+				522BDDCA24EFAB380079B599 /* TMAttributedLabel */,
 				522BDBDA24EE62B60079B599 /* Demo */,
 				522BDBD924EE62B60079B599 /* Products */,
 				04F92EFFC3CDC1C10B8EBC2F /* Pods */,
@@ -105,6 +119,22 @@
 			path = Demo;
 			sourceTree = "<group>";
 		};
+		522BDDCA24EFAB380079B599 /* TMAttributedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				522BDDCE24EFAB380079B599 /* NSMutableAttributedString+TM.h */,
+				522BDDD324EFAB380079B599 /* NSMutableAttributedString+TM.m */,
+				522BDDCB24EFAB380079B599 /* TMAttributedLabel.h */,
+				522BDDD024EFAB380079B599 /* TMAttributedLabel.m */,
+				522BDDCD24EFAB380079B599 /* TMAttributedLabelAttachment.h */,
+				522BDDD124EFAB380079B599 /* TMAttributedLabelAttachment.m */,
+				522BDDCF24EFAB380079B599 /* TMAttributedLabelHeader.h */,
+				522BDDCC24EFAB380079B599 /* TMAttributedLabelLink.h */,
+				522BDDD224EFAB380079B599 /* TMAttributedLabelLink.m */,
+			);
+			path = TMAttributedLabel;
+			sourceTree = "<group>";
+		};
 		9A15DF6F40719F07093CFAF1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,7 +156,6 @@
 				522BDBD524EE62B60079B599 /* Frameworks */,
 				522BDBD624EE62B60079B599 /* Resources */,
 				522BDC0524EE63150079B599 /* Embed Frameworks */,
-				F012BA25B28EF0F93B5B9F11 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -205,23 +234,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F012BA25B28EF0F93B5B9F11 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Demo/Pods-Demo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -232,6 +244,10 @@
 				522BDBE324EE62B60079B599 /* ViewController.m in Sources */,
 				522BDBDD24EE62B60079B599 /* AppDelegate.m in Sources */,
 				522BDBEE24EE62B60079B599 /* main.m in Sources */,
+				522BDDD624EFAB380079B599 /* TMAttributedLabelLink.m in Sources */,
+				522BDDD424EFAB380079B599 /* TMAttributedLabel.m in Sources */,
+				522BDDD724EFAB380079B599 /* NSMutableAttributedString+TM.m in Sources */,
+				522BDDD524EFAB380079B599 /* TMAttributedLabelAttachment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
