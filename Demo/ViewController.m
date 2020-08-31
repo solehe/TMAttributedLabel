@@ -43,16 +43,15 @@
     
     // 以顶部对齐的方式添加一个label
     UILabel *label1 = [[UILabel alloc] initWithFrame:CGRectZero];
-    [label1 setBackgroundColor:[UIColor greenColor]];
     [label1 setText:@"潦倒新停浊酒杯。"];
     
     CGFloat width = [label1 sizeThatFits:CGSizeMake(335, label.font.lineHeight)].width;
-    [label1 setFrame:CGRectMake(0, 0, width, label.font.lineHeight+3)];
+    [label1 setFrame:CGRectMake(0, 0, width, label.font.lineHeight)];
     
-    [label append:label1 alignment:TMAttributedAlignmentTop];
+    [label append:label1 alignment:TMAttributedAlignmentCenter];
     
     // 重新计算尺寸
-    CGSize size = [label sizeThatFits:CGSizeMake(335, 180)];
+    CGSize size = [label sizeThatFits:CGSizeMake(335, 280)];
     [label setFrame:CGRectMake(20, 100, size.width, size.height)];
     
     // 添加链接
